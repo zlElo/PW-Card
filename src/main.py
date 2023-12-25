@@ -33,7 +33,7 @@ with st.expander('QA'):
 st.write('---')
 
 # example password card
-st.image('files\example_pic.png', caption='Example card', width=None, use_column_width=True, output_format='auto')
+st.image('files/example_pic.png', caption='Example card', width=None, use_column_width=True, output_format='auto')
 # Generieren-Schaltfläche
 if st.button('Generate'):
     st.write('---')
